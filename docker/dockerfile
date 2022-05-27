@@ -1,0 +1,6 @@
+FROM python:latest
+LABEL Maintainer='Mihaela'
+WORKDIR ~/docker
+COPY test.py ./
+CMD ["python", "./test.py"]
+
