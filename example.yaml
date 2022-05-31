@@ -1,0 +1,9 @@
+---
+- name: example
+  hosts: all
+  tasks: 
+    - name: touchfile
+      command: "touch ~/ansiblefile"
+
+
+
